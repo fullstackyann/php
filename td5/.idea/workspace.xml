@@ -14,8 +14,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/td5/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="202" column="38" lean-forward="false" selection-start-line="202" selection-start-column="38" selection-end-line="202" selection-end-column="38" />
+            <state relative-caret-position="516">
+              <caret line="215" column="39" lean-forward="false" selection-start-line="215" selection-start-column="39" selection-end-line="215" selection-end-column="39" />
               <folding>
                 <element signature="e#100#140#0#PHP" expanded="true" />
               </folding>
@@ -36,8 +36,8 @@
       <file leaf-file-name="Groupe.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/td5/src/peopleapp/personne/Groupe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="536">
+              <caret line="98" column="13" lean-forward="false" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
               <folding>
                 <element signature="e#402#623#0#PHP" expanded="false" />
                 <element signature="e#629#867#0#PHP" expanded="false" />
@@ -49,7 +49,7 @@
       <file leaf-file-name="Etudiant.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/td5/src/peopleapp/personne/Etudiant.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
+            <state relative-caret-position="676">
               <caret line="89" column="43" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="43" />
               <folding>
                 <element signature="e#217#409#0#PHP" expanded="false" />
@@ -170,12 +170,12 @@
       <workItem from="1507057140069" duration="457000" />
       <workItem from="1507100825080" duration="6356000" />
       <workItem from="1507136070262" duration="7999000" />
-      <workItem from="1507217899854" duration="91000" />
+      <workItem from="1507217899854" duration="4363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14903000" />
+    <option name="totallyTimeSpent" value="19175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="24" width="1368" height="780" extended-state="6" />
@@ -318,7 +318,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/td5/src/peopleapp/personne/Etudiant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
+        <state relative-caret-position="676">
           <caret line="89" column="43" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="43" />
           <folding>
             <element signature="e#217#409#0#PHP" expanded="false" />
@@ -330,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/td5/src/peopleapp/personne/Groupe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="536">
+          <caret line="98" column="13" lean-forward="false" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
           <folding>
             <element signature="e#402#623#0#PHP" expanded="false" />
             <element signature="e#629#867#0#PHP" expanded="false" />
@@ -341,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/td5/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="202" column="38" lean-forward="false" selection-start-line="202" selection-start-column="38" selection-end-line="202" selection-end-column="38" />
+        <state relative-caret-position="516">
+          <caret line="215" column="39" lean-forward="false" selection-start-line="215" selection-start-column="39" selection-end-line="215" selection-end-column="39" />
           <folding>
             <element signature="e#100#140#0#PHP" expanded="true" />
           </folding>

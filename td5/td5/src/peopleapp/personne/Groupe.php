@@ -72,7 +72,7 @@ class Groupe {
 
     }
 
-    public function calculerMoyenneGroupe(){
+    public function calculerMoyenneGroupe(string $selecteur = null){
 
         $tab = array();
         // retourne un tableau contenant
@@ -89,6 +89,16 @@ class Groupe {
             }
         }
 
-        return $tab;
+        if ($selecteur == null){
+            // si null, tri descroissant en fonction des notes
+            arsort($tab);
+            return $tab;
+
+        } elseif ($selecteur == 'noms') {
+            // si noms, tri croissant en fonction des noms
+            ksort($tab);
+            return $tab;
+        }
+
     }
 }

@@ -12,24 +12,24 @@ require_once ('src/peopleapp/utils/ClassLoader.php');
 $load = new peopleapp\utils\ClassLoader('src');
 $load->register();
 
-//Les require_once dans le fichier principal
-/*
-require_once ('src/peopleapp/personne/Personne.php');
-require_once ('src/peopleapp/personne/Etudiant.php');
-require_once ('src/peopleapp/personne/Enseignant.php');
-require_once ('src/peopleapp/afficheur/AfficheurPersonne.php');
-require_once ('src/peopleapp/afficheur/AfficheurEnseignant.php');
-require_once ('src/peopleapp/afficheur/AfficheurEtudiant.php');
-*/
 
+/*
+ *
+ *
+ * CRÉATION DES ÉTUDIANTS/ENSEIGNANTS
+ *
+ * */
 
 $p1 = new Etu('Dumas');
 $p3 = new Etu('Jo');
+$p4 = new Etu('joana');
 $p2 = new Enseignant('Martin');
 
-
+    $p4->prenom = 'enzo';
     $p3->prenom = 'jo';
-	$p1->prenom = 'Yann';
+	$p1->prenom = 'yann';
+
+
 	$p1->age = 22;
 	$p1->adresse = 'Nancy';
 	$p1->ville = 'Neuves-Maisons';
@@ -117,7 +117,16 @@ $p3->ajouterNote("Programmation", 15);
 
 $p3->ajouterNote("Musique", 20);
 
-$p3->ajouterNotes("Maths", "5;15");
+$p3->ajouterNotes("Maths", "20;15");
+
+
+$p4->ajouterNote("Maths",12);
+$p4->ajouterNote("Programmation", 11);
+
+$p4->ajouterNote("Musique", 9);
+
+$p4->ajouterNotes("Maths", "20;15;13");
+
 /*
 $note = array("Maths");
 $note["Maths"] = array();
@@ -193,6 +202,7 @@ $grp = new Groupe('groupe 1','s1','CISIIE');
 
 $grp->ajouterEtudiant($p1);
 $grp->ajouterEtudiant($p3);
+$grp->ajouterEtudiant($p4);
 
 echo ('<p>Moyenne du '.$grp->groupe.' en Maths :</p>');
 $moyenneGroupeMat = $grp->calculerMoyenneGroupeMat('Maths');
@@ -200,5 +210,7 @@ $moyenneGroupeMat = $grp->calculerMoyenneGroupeMat('Maths');
 echo ($moyenneGroupeMat);
 
 echo ("<h1>Moyenne général de chaque éléve appartenant au $grp->groupe </h1>");
+echo ("<p>Trié par nom :</p>");
+print_r($grp->calculerMoyenneGroupe('noms'));
+echo ("<p>Trié par moyenne :</p>");
 print_r($grp->calculerMoyenneGroupe());
-
